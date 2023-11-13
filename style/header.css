@@ -1,0 +1,92 @@
+header{
+    font-family: var(--font-principal);
+    font-weight: 700;
+    background:var(--cor-de-fundo);
+    width: 100%;
+    padding: 1em 0 0.5em 0.5em ;
+    color:var(--cor-letras)
+    
+}   
+
+.cabeçalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em;
+}
+.buttons{
+    padding: 0 2em;
+    
+}
+button{
+    padding: 0 0.5em;
+}
+.titulo-nome{
+    font-size: 20px;
+    color:var(--cor-letras);
+    
+}
+
+#change-theme{
+    display: none;
+}
+#bandeiraIdioma{
+    display: none;
+    width: 65px;
+    
+   
+}
+.flag-menu{
+    display: flex;
+    align-items: center;
+}
+
+.bandeiras{
+    width: 35px;
+    margin-right: 10px;
+   
+   
+}
+
+.iconWhiteTheme{
+    width: 35px;
+    
+}
+
+
+@media screen and (min-width:1728px){
+
+  
+
+    .cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 8em;
+        height: 40%;
+    }
+    .buttons{
+        padding: 0 4em;
+        
+    }
+    button{
+        width: 50px;
+        padding: 0 2.5em;
+    }
+    .titulo-nome{
+        font-size: 35px;
+        color:var(--cor-letras);
+        margin-right: 4em;
+        
+    }
+    .bandeiras{
+        width: 50px;
+        
+       
+       
+    }
+    .iconWhiteTheme{
+        width: 50px;
+        
+    }
+}

@@ -1,0 +1,36 @@
+.imgSkill{
+   display: flex;
+}
+
+.imglist{
+width: 150px;
+height: 150px;
+padding: 1em;
+}
+.h2List{
+  margin-top: 50px;
+  padding: 0 1em;
+ 
+}
+
+
+@media screen and (min-width:1728px){
+
+
+.imglist{
+width: 200px;
+height: 200px;
+}
+.h2List{
+font-size: 35px;
+}
+.listaSkill{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2em;
+  padding: 2em;
+  
+}
+}

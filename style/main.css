@@ -1,0 +1,134 @@
+main{
+    color:var(--cor-letras)
+}
+h1{
+    font-size: 30px;
+    padding: 1.5em;
+    color:var(--cor-letras)
+}
+h2{
+    font-family: var(--font-principal);
+    font-size: 24px;
+    color:var(--cor-letras)
+}
+h3{
+    font-family: var(--font-principal);
+    font-size: 18px;
+    color:var(--cor-letras)
+}
+p{
+    opacity: 70%;
+}
+.MinhaDescriçao{
+    padding: 2em;
+    background: var(--cor-de-fundo);
+    color:var(--cor-letras)
+}
+.descricao{
+    display: block;
+    
+}
+.h1main{
+    font-size: 30px;
+    padding: 1.5em;
+}
+
+.Botao{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 2em;
+    padding: 1em;
+    background: var(--cor-botao);
+    width: 50%;
+    gap: 10px;
+   
+}
+.h2sobre{
+    font-size: 25px;
+    padding: 2em;
+    font-weight: 700;
+    
+}
+
+.avatar{
+    display: none;
+}
+
+@media screen and (min-width:1728px){
+    
+.apresentaçao{
+    display: flex;
+    
+}    
+
+    .descricao{
+        margin-top: 2em;
+        margin-left: 10em;
+        margin-bottom: 3em;
+        
+    }
+    
+    h3{
+        font-family: var(--font-principal);
+        font-size: 40px;
+        color:var(--cor-letras)
+    }
+    .h1main{
+        font-size: 80px;
+        padding: 1.5em;
+    }
+    .h2main{
+        font-family: var(--font-principal);
+        font-size: 60px;
+        color:var(--cor-letras)
+    }
+    
+    .Botao{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 170px;
+        background: var(--cor-botao);
+        width: 450px;
+        height: 100px;
+        font-size: 35px;
+        padding-left: 2em;
+        gap: 20px;
+
+       
+    }
+    .h2sobre{
+        padding: 3em 0 ;
+        font-size: 60px;
+        padding: 0 0 1em 1.5em;
+        font-weight: 700;
+    }
+    p{
+    
+        margin-left:6em ;
+        font-size: 40px;
+        opacity: 70%;
+    }
+
+    .Sobre{
+        padding: 2em ;
+
+    }
+
+    .botao2{
+        margin-left: 5.8em;
+    }
+
+    .avatar{
+        display: flex;
+    }
+
+    .img-avatar{
+        width: 20%;
+        position: absolute;
+        top: 349px;
+        right: 200px;
+    }
+
+}

@@ -1,0 +1,58 @@
+@import url(style/reset.css);
+@import url(style/header.css);
+@import url(style/main.css);
+@import url(style/sectionSkills.css);
+@import url(style/contato.css);
+@import url(style/projetos.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Roboto:wght@300;500;900&display=swap');
+
+:root{
+    --cor-de-fundo : linear-gradient(79.63deg, rgb(22, 22, 22) 12.08%, rgb(30, 58, 138) 216.5%);
+    --cor-wtheme :rgb(249, 250, 251);
+    --font-principal:'Josefin Sans';
+    --cor-botao:linear-gradient(267.93deg, rgb(0, 183, 255) -42.09%, rgb(77, 78, 85) 108.97%);
+    --cor-letras: white;
+}
+
+
+
+
+
+
+
+html[data-theme='light'] {
+    
+    --cor-letras: black;
+    --cor-botao:linear-gradient(267.93deg, rgb(72, 169, 208) -42.09%, rgb(43, 123, 153) 108.97%);
+    --cor-de-fundo:var(--cor-wtheme);
+    
+}
+
+body{
+    font-family: var(--font-principal);
+    color:var(--cor-letras);
+    
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+}
+.hidden-right{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0);
+    transition: all 1s;
+}
+
+
